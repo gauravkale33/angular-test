@@ -1,0 +1,20 @@
+<header>
+  <nav class="navbar">
+    <ul>
+      <li><a [routerLink]="['home']">Home</a></li>
+      <li><a [routerLink]="['about']">About</a></li>
+      <li><a [routerLink]="['contact']">contact</a></li>
+
+    </ul>
+    <div class="search">
+      <input type="text" name="search" id="search" placeholder="Search on Web">
+    </div>
+    <button (click)="logout()"><b>Logout</b></button>
+  </nav>
+</header>
+
+
+
+
+<br><br>
+<router-outlet></router-outlet>

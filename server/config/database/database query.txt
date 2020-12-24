@@ -1,0 +1,26 @@
+//////////Database  Details//////////
+
+>create schema angulartest;
+
+>use angulartest;
+
+>create table login_details(uname varchar(20), upwd varchar(20));
+
+>create table about(sno integer, message varchar(50));
+
+>create table home(sno integer, message varchar(50));
+
+>create table contact(sno integer, message varchar(50));
+
+
+
+>insert into login_details values("admin","admin");
+
+>insert into about values(1,"Welcome to about module");
+
+>insert into home values(1,"Welcome to about module");
+
+>insert into contact values(1,"Welcome to contact module");
+
+
+
